@@ -1,4 +1,8 @@
 language: java
-install: ant
+script:
+        - ant init
+        - ant compile
+
+
 
 

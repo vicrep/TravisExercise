@@ -14,4 +14,8 @@
       srcdir="src"
       destdir="${classdir}" />
   </target>
+
+  <target name="link" depends="compile">
+    <jar destfile="${blddir}/app.jar" basedir="${classdir}"/>
+  </target>
 </project>

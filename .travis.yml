@@ -1,7 +1,6 @@
 language: java
 script:
-        - ant init
-        - ant compile
+        - ant link
 
 
 
